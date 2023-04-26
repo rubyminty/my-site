@@ -1,0 +1,189 @@
+---
+import "@fontsource/hauora-sans";
+
+let songs: String[] = [
+  "Kade McCuen ~ The Internet",
+  "glaive ~ astrid",
+  "Edo Saiya ~ 2518",
+  "Ghost ~ Mary On A Cross",
+  "XZARKHAN ~ Keyser Söze",
+  "Navy Westghost ~ Underground2",
+  "mxnarch ~ Nightwing",
+  "Kylof Söze - WitaPoke",
+  "xoxomyah ~ Her",
+  "xoxomyah ~ Princeton",
+  "Fukkit ~ Anthem",
+  "Scene Queen ~ Pink Paper",
+  "Scene Queen ~ Pink Panther",
+  "Scene Queen ~ Pink Hotel",
+  "$uicideboy$ - New Profile Pic",
+  "PiNKII ~ Succubus",
+  "Corpse ~ MISA MISA!",
+  "Måneskin ~ Beggin'",
+  "LOAT! ~ xanny bar",
+  "Lil Peep ~ angeldust",
+  "Lil Peep ~ witchblades",
+  "BAND-MAID ~ Turn me on",
+  "HAARPER ~ SKINWALKER",
+  "shiey ~ make it back",
+  "shiey ~ element",
+  "Koi ~ desperate",
+  "Alexis Munroe ~ Brat",
+  "Alexis Munroe ~ Novocaine",
+  "Maggie Lindemann ~ novocaine",
+  "Doll.ia ~ Brat Trap!",
+  "ZHU ~ Cocaine Model",
+  "BAND-MAID ~ Choose me",
+  "Landspeed ~ ALRIGHT",
+  "Lil Mariko ~ Catboys",
+  "$uicideboy$ - 2nd Hand",
+  "Nomy ~ Cocaine - Reloaded",
+  "Sinizter ~ VANTABLACK",
+  "1.Cuz ~ FÖRSENT",
+  "BLUTHUND ~ Unser Weg",
+  "$uicideboy$ - Audubon",
+  "WARGASM (UK) ~ Selma Hayek",
+  "Kiraw ~ 808s and Goth Bitches",
+  "Joey Valence ~ Punk Tactics",
+  "Vitamjn - DISORDER",
+  "RIN - Dior 2001",
+  "HAARPER - Archon",
+  "Sabaton ~ Gott Mit Uns",
+  "Sabaton ~ Livgardet",
+  "Sabaton ~ Carolus Rex",
+  "KEANN DYSSO ~ Plain Jane",
+  "RIN ~ Avirex",
+  "Tony K ~ Drug",
+  "KMNZ ~ Augmentation",
+  "XZARKHAN ~ Drag Radials",
+  "LOAT! ~ carleen",
+  "$uicideboy$ ~ Life Is but a Stream~",
+  "HAARPER ~ The Alchemist",
+  "Corpse ~ POLTERGEIST!",
+  "$uicideboy$ ~ Paris",
+  "$uicideboy$ ~ Antarctica",
+  "REV ~ Devil Lady",
+  "Press Kampe ~ ADDY",
+  "JP THE WAVY ~ Neo Gal Wop",
+  "GHOST DATA ~ Full Bodied",
+  "PiNKII ~ To NRT",
+  "Lil Peep ~ Save That Shit",
+  "Chase Atlantic ~ Swim",
+  "The Neighbourhood ~ Daddy Issues",
+  "Avril Lavigne ~ Bite Me",
+  "Maggie Lindemann ~ she knows it",
+  "iann dior ~ gone girl",
+  "Mc Kresha ~ Luv Luv",
+  "Corpse ~ fuK u lol",
+  "MUPP ~ Tokyo Revengers",
+  "Very Abstract ~ X'$ & O'$",
+  "Sabaton ~ Primo Victoria",
+  "Sinizter ~ JUST DANCE",
+  "pxstm0rtem ~ Egirl",
+  "Usher ~ Yeah!",
+  "Tatarka ~ KAWAII",
+  "Sophie Powers ~ U Love It",
+  "La Rosy ~ Ahhä",
+  "$uicideboy$ ~ Carrollton",
+  "L1LY ~ Internet Call",
+  "Shiki-TMNS ~ E-Girl Bounce",
+  "PiNKII ~ Crying in the Club",
+  "Greekazo ~ HotSpot",
+  "Freddie Dredd ~ My Hip",
+  "Freddie Dredd ~ Limbo",
+  "Freddie Dredd ~ Killin' On Demand",
+  "BAND-MAID ~ DOMINATION",
+  "BABYMETAL ~ Monochrome",
+  "BABYMETAL ~ PA PA YA!",
+  "Faceless 1-7 ~ Wrong Place",
+  "Very Abstract ~ billie eilish",
+  "Eloah ~ Sun Diego",
+  "RAF Camora ~ Gotham City",
+  "Billie Eilish ~ Oxytocin",
+  "CUR$E ~ Ronin",
+  "$uicideboy$ ~ LTE",
+  "Pop Smoke ~ AP",
+  "Kordhell ~ DAT PHONK",
+  "$uicideboy$ ~ Sarcophagus III",
+];
+
+let song = songs[Math.floor(Math.random() * songs.length)];
+---
+
+<div class="navbar bg-opacity-0 p-4">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <label tabindex="0" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          ><path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16"></path></svg
+        >
+      </label>
+      <ul
+        tabindex="0"
+        class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+      >
+        <li><a>Item 1</a></li>
+        <li tabindex="0">
+          <a class="justify-between">
+            Parent
+            <svg
+              class="fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              ><path
+                d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+              ></path></svg
+            >
+          </a>
+          <ul class="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        <li><a>Item 3</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost bg-black normal-case text-xl">daisyUI</a>
+  </div>
+  <div class="lg:navbar-center navbar-end lg:justify-center">
+    <a
+      class="btn btn-ghost bg-black normal-case text-xl menu menu-horizontal flex"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        ><path
+          fill="#94e2d5"
+          d="M9.525 18.025q-.5.325-1.012.038T8 17.175V6.825q0-.6.513-.888t1.012.038l8.15 5.175q.45.3.45.85t-.45.85l-8.15 5.175Z"
+        ></path></svg
+      > &nbsp; {song}
+    </a>
+  </div>
+  <div class="lg:navbar-end hidden lg:flex space-x-0">
+    <a class="btn text-xl bg-black mr-4 ">About</a>
+    <a href="" class="btn text-xl bg-black"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 512 512"
+        ><path
+          fill="#cba6f7"
+          d="M192 32c0 17.7 14.3 32 32 32c123.7 0 224 100.3 224 224c0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32c70.7 0 128 57.3 128 128c0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192c-17.7 0-32 14.3-32 32zm-96 16c0-26.5-21.5-48-48-48S0 117.5 0 144v224c0 79.5 64.5 144 144 144s144-64.5 144-144s-64.5-144-144-144h-16v96h16c26.5 0 48 21.5 48 48s-21.5 48-48 48s-48-21.5-48-48V144z"
+        ></path></svg
+      > &nbsp; Blog</a
+    >
+  </div>
+</div>

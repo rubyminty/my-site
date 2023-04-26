@@ -1,0 +1,23 @@
+{
+  "name": "my-site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.19.0",
+    "@astrojs/rss": "^2.3.2",
+    "@astrojs/sitemap": "^1.2.2",
+    "@astrojs/tailwind": "^3.1.1",
+    "@fontsource/hauora-sans": "^4.5.3",
+    "@fontsource/inter": "^4.5.15",
+    "astro": "^2.3.1",
+    "daisyui": "^2.51.6",
+    "tailwindcss": "^3.0.24"
+  }
+}
